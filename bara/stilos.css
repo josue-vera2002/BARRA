@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 200vh;
+    background: #10131d;
+}
+
+.barra {
+    position: absolute;
+    width: 170px;
+    height: 100vh;
+    background: #f1eae8;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.barra ul {
+    position: relative;
+    height: 100vh;
+    list-style: none;
+}
+
+.barra ul li:hover {
+    background: #dfcdc8;
+}
+
+.barra ul li a {
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.barra ul li a .icono {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    color: black;
+}
+
+.barra ul li a .texto {
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: rgb(5, 26, 19);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
